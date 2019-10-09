@@ -2,6 +2,7 @@
 # 입력: 숫자가 n 개 들어있는 리스트
 # 출력: 숫자 n개 중 최대값
 
+
 def find_max(a):
 	n = len(a)
 	max_v = a[0]
@@ -13,6 +14,7 @@ def find_max(a):
 			print("최대값 변경: ", max_v)
 
 	return max_v
+
 
 v = [17, 92, 18, 33, 58, 7, 33, 42]
 print(find_max(v))

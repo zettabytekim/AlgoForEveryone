@@ -2,6 +2,7 @@
 # 입력: 이름이 n개 있는 리스트
 # 출력: 이름 n개 중 반복되는 이름의 집합
 
+
 def find_same_name(a):
  	n = len(a)
  	result = set()
